@@ -16,8 +16,8 @@ public class AlunoBd {
 	public AlunoBd() {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			this.conn = DriverManager.getConnection("jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl", "rm85576",
-					"220900");
+			this.conn = DriverManager.getConnection("jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl", "xxxxxx",
+					"xxxxx");
 
 		} catch (ClassNotFoundException e) {
 			System.err.printf("Não foi possivel localizar o driver: %s", e.getMessage());
